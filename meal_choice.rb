@@ -10,9 +10,21 @@ end
 
 puts breakfast 
 puts breakfast("Pancakes")
+puts breakfast("scrambled eggs")
 
-def lunch(food=)
-  
+def lunch(food="grilled cheese")
+  puts "Lunch is the best time to have #{food}!"
+end 
+puts lunch("Chicken noodle soup")
+puts lunch
+
+def dinner(food="salmon")
+  puts "Dinner is the best time to have #{food}"
+end 
+
+puts dinner("Pizza")
+puts dinner
+puts dinner("Tacos")
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
 
