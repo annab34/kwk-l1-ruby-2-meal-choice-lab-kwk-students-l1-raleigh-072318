@@ -9,7 +9,7 @@ def breakfast(food="Frosted Flakes", foo="soup")
 end
 
 puts breakfast 
-puts breakfast("Pancakes")
+puts breakfast("Pancakes", foo="salad")
 puts breakfast("scrambled eggs")
 
 def lunch(food="grilled cheese")
