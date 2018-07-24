@@ -10,6 +10,8 @@ end
 
 puts breakfast 
 puts breakfast("Pancakes")
+
+def lunch(food=)
   
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
