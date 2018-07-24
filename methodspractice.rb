@@ -13,3 +13,5 @@ puts
  birth_place = gets
  puts 'How tall are you?'
  height = gets
+ 
+ def askandanswer(my_name, birthdate, birth_)
