@@ -4,8 +4,8 @@ def snacks(food="Cheetos")
   "Any time, is the right time for #{food}!"
 end
 
-def breakfast(food="Frosted Flakes")
- puts "Morning is the best time for #{food}!"
+def breakfast(food="Frosted Flakes", foo="soup")
+ puts "Morning is the best time for #{food}! Morning is not a good time for #{foo}!"
 end
 
 puts breakfast 
