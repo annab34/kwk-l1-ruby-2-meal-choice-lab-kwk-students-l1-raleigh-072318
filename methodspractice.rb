@@ -14,4 +14,10 @@ puts
  puts 'How tall are you?'
  height = gets
  
- def askandanswer(my_name, birthdate, birth_)
+ def askandanswer(my_name, birthdate, birth_place, height)
+   puts "Hi, my name is #{my_name} I was born in #{birth_place}. I was born on #{birthdate}. I am #{height} inches tall."
+ end 
+ 
+ askandanswer(my_name, birthdate, birthdate, height)
+ 
+ 
