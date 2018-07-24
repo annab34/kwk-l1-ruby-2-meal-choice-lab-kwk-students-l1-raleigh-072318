@@ -7,7 +7,7 @@ end
 def breakfast(food="Frosted Flakes")
  puts "Morning is the best time for #{food}!"
 end
-def meal_choice(breakfast, snacks, lunch, Dinner)
+def meal_choice(breakfast, snacks, lunch, dinner)
   puts #{meal_choice}
 end 
 meal_choice = breakfast
